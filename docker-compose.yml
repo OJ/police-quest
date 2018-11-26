@@ -1,0 +1,6 @@
+version: '2'
+services:
+  police-app:
+    image: thecolonial/police-quest:1.0
+    ports:
+      - "0.0.0.0:10100:9999"
